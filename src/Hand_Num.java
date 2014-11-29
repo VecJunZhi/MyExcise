@@ -30,6 +30,7 @@ public class Hand_Num {
 		System.out.println(list.get(1));
 		}else{
 		System.out.println(list.get(ii-1));
+		System.out.println("hello");
 		}
 		
 		
