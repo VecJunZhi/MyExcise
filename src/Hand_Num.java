@@ -18,18 +18,19 @@ public class Hand_Num {
 		int ii=i%8;
 		
 		List<String> list = new ArrayList<String>();
-		list.add("1Ĵָ");
-		list.add("2ʳָ");
-		list.add("3��ָ");
-		list.add("4����ָ");
-		list.add("5Сָ");
-		list.add("4����ָ");
-		list.add("3��ָ");
-		list.add("2ʳָ");
+		list.add("1拇指");
+		list.add("2食指");
+		list.add("3中指");
+		list.add("4无名指");
+		list.add("5小指");
+		list.add("4无名指");
+		list.add("3中指");
+		list.add("2食指");
 		if(ii==0){
 		System.out.println(list.get(1));
 		}else{
 		System.out.println(list.get(ii-1));
+			System.out.println("fejl");
 		}
 		
 		
